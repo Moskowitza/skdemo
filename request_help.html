@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shane's Kindness: Request Help</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="request_style.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1 class="logo">
+          Shane's Kindness
+        </h1>
+        <nav>
+          <h2>Main Nav</h2>
+          <ul>
+            <li><a href="./">home</a></li>
+            <li><a href="./our_story.html">our story</a></li>
+            <li><a href="./community.html">community</a></li>
+            <li><a href="./shop_&_donate.html">shop & donate</a></li>
+            <li><a href="#" class="active">request help</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="request-section-1">
+        <img
+          class="request-section-1--img"
+          src="../images/RequestHelpImage@2x.png"
+          alt="Donate and Shop"
+        />
+      </div>
+      <div id="request-section-2">
+        <p>
+          Our acts of kindness through the Springfield community can only
+          continue if we know of those in need. If you or someone you know could
+          benefit from some support, please contact us so we can help.
+        </p>
+      </div>
+      <div id="request-section-3">
+        <div class="request-section-3-grid">
+          <p class="request-section-3-grid--text">
+            You can contact us by completing the form on this page. We will
+            review your request and get back to you as quickly as possible.
+          </p>
+          <div class="request-section-3-grid--form">
+            <p class="request-section-3-grid--form-title">
+              Request Help Pre-Approval Form
+            </p>
+            <form id="request-form" action="">
+              <label for="name"
+                >Name of applicant/requesting organization:</label
+              >
+              <input type="text" id="name" name="name" /><br /><br />
+              <label for="number">Phone Number:</label>
+              <input type="text" id="number" name="number" /><br /><br />
+              <label for="email">Email Address:</label>
+              <input type="text" id="email" name="email" /><br /><br />
+              <label for="amount">Total amount requested:</label>
+              <input type="text" id="amount" name="amount" /><br /><br />
+              <label for="more">Tell us more about your request:</label>
+              <textarea type="text" id="more" name="more"></textarea>
+              <button id="submit-btn">Submit Form</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

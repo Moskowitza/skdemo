@@ -1,0 +1,81 @@
+#donate-section-1 {
+  margin: 0 auto;
+  align-items: center;
+}
+
+.donate-section-1--img {
+  display: block;
+  margin: 2rem auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+#donate-section-2 {
+  width: 100%;
+  padding: 1rem auto;
+  margin: 2rem auto;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.donate-section-2-grid {
+  max-width: 1000px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr;
+}
+
+.donate-section-2-info {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+
+.donate-section-2-paypal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.donate-section-2-paypal-btn {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#donate-section-3 {
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+.donate-section-3-title {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 1rem;
+  font-family: Rubik, bold;
+  color: var(--blue);
+}
+
+.donate-section-3-grid {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.donate-section-3-grid-item {
+  width: 200px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.donate-section-3-grid-item > img {
+  width: 200px;
+}
+.price {
+  padding: 0.5rem;
+}

@@ -1,0 +1,126 @@
+header {
+  width: 100%;
+  box-shadow: 0 4px 2px -2px #888888;
+}
+.wrapper {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+
+h1.logo {
+  background-image: url(../images/ShanesKindnessLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin: 0;
+  width: 250px;
+  height: auto;
+  text-indent: -100000px;
+  float: left;
+}
+
+header nav {
+  text-transform: uppercase;
+  float: right;
+}
+header nav h2 {
+  text-indent: -100000px;
+  height: 0;
+  margin: 0;
+}
+header nav ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header nav li {
+  display: inline;
+  list-style: none;
+  margin: 0 20px;
+  white-space: nowrap;
+  text-align: left;
+}
+header nav li a {
+  text-decoration: none;
+  color: var(--blue);
+  font: Rubik;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.54px;
+}
+header nav li a:hover {
+  border-bottom: 2px solid var(--green);
+}
+header nav li a.active {
+  border-bottom: 3px solid var(--green);
+}
+@media all and (max-width: 1000px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+
+  h1.logo {
+    background-image: url(../images/ShanesKindnessLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    align-self: center;
+    padding-left: 50%;
+    text-indent: -100000px;
+  }
+
+  header nav {
+    text-transform: uppercase;
+    align-self: center;
+  }
+  header nav h2 {
+    text-indent: -100000px;
+    height: 0;
+    margin: 0;
+  }
+  header nav ul {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header nav li {
+    display: inline;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: var(--blue);
+    font: Rubik;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.54px;
+  }
+  header nav li a:hover {
+    border-bottom: 2px solid var(--green);
+  }
+  header nav li a.active {
+    border-bottom: 3px solid var(--green);
+  }
+}
+/* @media all and (max-width: 480px) {
+} */
